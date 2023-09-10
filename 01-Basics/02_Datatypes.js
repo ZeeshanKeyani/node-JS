@@ -25,3 +25,5 @@ let isLoggedIn = true
 
 //objects
 console.log(typeof "highes")
+console.log(typeof null)
+console.log(typeof undefined)
