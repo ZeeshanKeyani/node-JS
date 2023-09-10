@@ -20,7 +20,7 @@ let isLoggedIn ="shan"
 
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn); 
+//console.log(booleanIsLoggedIn); 
 
 
 // if we write 1 => true
@@ -31,5 +31,60 @@ console.log(booleanIsLoggedIn);
 let someNumber = 33
 
 let stringNumber =  String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+
+//console.log(stringNumber)
+//console.log(typeof stringNumber)
+
+let someNumber1 =34
+
+let stringNumer1 = String(someNumber1)
+//console.log(stringNumer1);
+//console.log(typeof stringNumer1);
+
+
+
+let age = false
+
+//console.log(typeof age);
+
+let valueInNumber1 = Number(age);
+//console.log(valueInNumber1);
+
+let isLoggedInTo = 0
+
+
+let booleanIsLoggedInto = Boolean(isLoggedInTo)
+//console.log(booleanIsLoggedInto)
+
+// ***************************************** Operations ****************************************//
+
+let value = 3
+let negValue = value
+//console.log(negValue)
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2**3);
+//console.log(2/2);
+//console.log(2%2);
+
+
+
+
+let str1 ="hello"
+let str2 ="shan"
+
+let str3 = str1+str2
+//console.log(str3);
+
+//console.log("1" + 2);
+//console.log(1 + "2");
+//console.log("1" + 2 + 2);
+
+//console.log(1 + 2 + "2");
+
+//console.log(+true)
+
+let gameCounter = 100
+++gameCounter ;
+console.log(gameCounter)
