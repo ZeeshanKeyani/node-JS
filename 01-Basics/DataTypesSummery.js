@@ -53,4 +53,32 @@ console.log(typeof bigNumber)
 
 
 
+///****************************************************************** */
+//stack heap
+
+//stack (premitive),   non premitive type (heap memory)
+
+// 
+let myYouTubeName = "HiteshCoudharydotcom"
+
+let anOtherName = myYouTubeName
+
+anOtherName = "chieaurcode"
+
+console.log(myYouTubeName)
+console.log(anOtherName)
+
+let userOne =
+{
+        email: "user@google.com",
+        upi: "user@ypl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
