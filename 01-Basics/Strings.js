@@ -34,3 +34,9 @@ console.log(anOtherString)
 const newStringOne = "       hiteash    "
 console.log(newStringOne);
 console.log(newStringOne.trim())
+
+const url = "https://google.com/hitesh%20choudary"
+
+console.log(url.replace('%20', '-'))
+
+console.log(url.includes('sunder'))
