@@ -1,3 +1,4 @@
+
 const name = "hitesh"
 const repoCount = 50
 
@@ -7,7 +8,7 @@ const repoCount = 50
 
 //console.log(`Hello my name is ${name} and my repocount is ${repoCount}`);
 
-const gameName = new String('hiteshhc')
+const gameName = new String('hitesh-hc-com')
 //for accessing keys
 //console.log(gameName[0]);
 //console.log(gameName.__proto__);
@@ -40,3 +41,5 @@ const url = "https://google.com/hitesh%20choudary"
 console.log(url.replace('%20', '-'))
 
 console.log(url.includes('sunder'))
+
+console.log(gameName.split('-'))
