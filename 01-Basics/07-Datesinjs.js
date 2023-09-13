@@ -15,5 +15,17 @@ let myNewCreatedDate = new Date ("2023-01-14")
 let myTimeStamp = Date.now()
 //console.log(myTimeStamp);
 //console.log(myNewCreatedDate.getTime());
+//ConvertIntoseconds
+//console.log(Math.floor(Date.now()/1000));
 
-console.log(Date.now())
+let newDate = new Date()
+console.log(newDate.getDate());
+console.log(newDate.getMonth() +1);
+console.log(newDate.getDay());
+
+newDate.toLocaleString('default', {
+    weekday: "long"
+})
+
+
+
