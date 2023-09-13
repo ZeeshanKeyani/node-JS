@@ -13,6 +13,7 @@ let myNewCreatedDate = new Date ("2023-01-14")
 //console.log(myNewCreatedDate.toLocaleString());
 
 let myTimeStamp = Date.now()
-console.log(myTimeStamp);
+//console.log(myTimeStamp);
+//console.log(myNewCreatedDate.getTime());
 
-console.log(myNewCreatedDate.getTime());
+console.log(Date.now())
