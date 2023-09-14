@@ -25,7 +25,7 @@ const JsUser = {
 //console.log(typeof JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"
-Object.freeze(JsUser)
+//Object.freeze(JsUser)
 JsUser.email="hitesh@microsoft.com"
 //console.log(JsUser)
 
@@ -33,7 +33,13 @@ JsUser.greetings = function(){
 
     console.log("Hello JsUser");
 }
+JsUser.greetingsTwo = function(){
+
+    console.log(`Hello Js user, ${this.name}`)
+}
 
 console.log(JsUser.greetings());
+console.log(JsUser.greetingsTwo());
+
 
 
