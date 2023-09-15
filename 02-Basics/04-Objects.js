@@ -56,10 +56,51 @@ const users = [
 
 ]
 users[1].email
-console.log(tinderUser);
+//console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser));
+//console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const  emp = [ 
+{
+    id: 1,
+    email: "abc@gmail.com"
+},
+{
+    id: 1,
+    email: "abc@gmail.com"
+},
+{
+    id: 1,
+    email: "abc@gmail.com"
+}
+]
+emp[1].email
+//console.log(tinderUser);
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser));
+//console.log(Object.entries(tinderUser));
+
+
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+//object destructruing 
+
+const course = {
+course: "Js in Hindi",
+coursePrise: "999",
+courseInstructer: "hitesh"
+}
+// apny hisab sy bhi name dai skty hain
+const {courseInstructer: instructor} = course
+//console.log(courseInstructer);
+console.log(instructor);
+
+{
+
+
+    
+}
