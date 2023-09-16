@@ -39,7 +39,7 @@ function loginUserMessage(username= "sam")
       if(!username)
         {
       console.log("Please enter a username")
-      return
+      
         }
         return `${username} just loged in `
 }
@@ -47,3 +47,13 @@ function loginUserMessage(username= "sam")
  console.log(loginUserMessage());
 //agar kis ny is main arguments he ni pass kiay to kia out put aye ga
 //undefined
+function callmyName(username ="Zeeshan"){
+    if (!username===undefined)
+    {
+        console.log("Please Enter a valid usernam")
+
+    }
+      return `${username}, Just logged in `
+}
+
+console.log(callmyName());
