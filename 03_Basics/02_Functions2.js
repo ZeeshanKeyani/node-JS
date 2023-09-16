@@ -27,3 +27,17 @@ handleObject({   //method 2 for passing an objet to a funtion
         price: 199
 
 })
+// we can also pass an array to a function 
+
+const myNewArray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+
+    return getArray[1]
+}
+
+//console.log(returnSecondValue(myNewArray));
+//console.log(returnSecondValue([200,400,100,600]));
+
+
+//^*************************************** Scope *********************//
