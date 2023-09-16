@@ -32,7 +32,7 @@ function sayMyName(){
       const result = addTwoNumaber(3,4)
 //      console.log("Result:" , result)
 
-function loginUserMessage(username)
+function loginUserMessage(username= "sam")
 //username do yahan parameters main jo bhi argument pass kro gay usy main smjh lu ga aur usay values main add kr dunga
   {
     //if(username === undefined)   //ye conditoin to tub run ho ga jb hamari condition true main he evaluate ho 
