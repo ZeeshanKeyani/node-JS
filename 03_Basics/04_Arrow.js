@@ -11,6 +11,29 @@ const user ={
         console.log(this)
     }
 }
-        user.welcomeMessage()
-        user.username ="sam"
-        user.welcomeMessage()
+        //user.welcomeMessage()
+        //user.username ="sam"
+        //user.welcomeMessage()
+        //console.log(this);
+
+
+        // function chai() {
+        //     let username ="Hitesh"
+        //     //console.log(this);
+        //     console.log(this.username)
+        // }
+        // chai()
+
+       const chai =  () => {
+            let username ="Hitesh"
+            //console.log(this);
+            console.log(this);
+        }
+        //chai()
+
+        const addTwo = (num1, num2) => {
+                return num1 + num2
+
+        }
+
+        console.log(addTwo(3,4));
