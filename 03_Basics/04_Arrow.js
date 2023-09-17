@@ -31,9 +31,15 @@ const user ={
         }
         //chai()
 
-        const addTwo = (num1, num2) => {
-                return num1 + num2
+        // const addTwo = (num1, num2) => {
+        //         return num1 + num2
 
-        }
-
+        // }
+//implecet return
+//const addTwo = (num1, num2) => (num1 + num2)
+// agar object return kro gay to paranthesis man rap krna e paray ga
+const addTwo = (num1, num2) => ({username: "Hitesh"})
+        
         console.log(addTwo(3,4));
+
+// agar curly braces use hua   need to type return if pranthese curly brace lazmi
