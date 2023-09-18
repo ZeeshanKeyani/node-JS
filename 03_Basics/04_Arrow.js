@@ -69,15 +69,23 @@ const user ={
     //     let username ="hitesh"
     //     console.log(this.username);
     // }
-    // chai()
-    const chai = function(){
+    
+    
 
-        let username = "hitesh"
-        console.log(this.username)
-    }
+            // user.welcomeMessage()
+            // user.username="sam"
+            // user.welcomeMessage()
+    // const chai = function () {
 
-            user.welcomeMessage()
-            user.username="sam"
-            user.welcomeMessage()
+    //     let username = "hitesh"
+    //     console.log(this.username)
+    // }
+
+        const chai =() => {
+                let username = "hitesh"
+                console.log(this)
+
+        }
+
 
     chai()
