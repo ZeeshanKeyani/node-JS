@@ -50,10 +50,23 @@ const user ={
     price: 999,
 
     welcomeMessage: function(){
+        //if we are refering the current context 
         console.log(`${this.username}, welocme to website`);
-        
+        console.log(this)
+
 
     }
 
 
 }
+    //  user.welcomeMessage()
+    //  user.username="sam"
+    //  user.welcomeMessage()
+    console.log(this);
+
+
+    function chai(){
+        let username ="hitesh"
+        console.log(this.username);
+    }
+    chai()
