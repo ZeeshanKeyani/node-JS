@@ -81,11 +81,26 @@ const user ={
     //     console.log(this.username)
     // }
 
-        const chai =() => {
-                let username = "hitesh"
-                console.log(this)
+        // const chai =() => {
+        //         let username = "hitesh"
+        //         console.log(this)
 
-        }
+        // }
 
 
-    chai()
+    //chai()
+
+
+
+    //arrow fucntion
+//     const addTwo =(num1, num2) => {
+//         return  num1 + num2 
+
+
+//     }
+
+//    console.log(addTwo(1,3));
+
+//implicit return meaning main ny man lea ye he jo hmm function main 
+
+const addTwo = (num1, num2) => num1 + num2;
