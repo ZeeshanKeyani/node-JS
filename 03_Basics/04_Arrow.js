@@ -103,4 +103,11 @@ const user ={
 
 //implicit return meaning main ny man lea ye he jo hmm function main 
 
-const addTwo = (num1, num2) => num1 + num2;
+//const addTwo = (num1, num2) => num1 + num2;
+
+//object ko return krnay k lea usy paranthesi main rap krna he pary ga 
+//1. () no use of return 
+//2. {} use return 
+const addTwo = (num1, num2) => ({username: "Hitesh"})
+
+console.log(addTwo(3,4))
