@@ -32,3 +32,6 @@ const temprature = 41
 // }
 // console.log(`User Power:  ${power}`);
 
+//shorthand notation 
+
+const balance =1000
