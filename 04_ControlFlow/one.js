@@ -35,3 +35,5 @@ const temprature = 41
 //shorthand notation 
 
 const balance =1000
+if (balance > 5000) console.log("test"), console.log("test2");
+
