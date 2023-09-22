@@ -22,3 +22,20 @@ switch (month) {
         console.log("Default case matched")
         break;
 }
+
+const monthchar = "March"
+switch (monthchar) {
+    case "January":
+        console.log("January");
+        break;
+        case "Feb":
+        console.log("Feb");
+        break;
+        case "March":
+        console.log("March");
+        break;
+
+    default:
+        console.log("Default case matched")
+        break;
+}
