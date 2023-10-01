@@ -34,3 +34,11 @@ for (let i = 0; i <= 10; i++) {
     
 //>>>>>>> 20094595cfbb2732b00d91dfd08ed9da83963c95
 }
+
+for (let z = 1; z <= 10; z++){
+    console.log(`The outer loop is : ${i}`)
+    for (let x = 1; x <=10; x++) {
+        console.log(z + '*' +x+ '=' +z*x )
+        
+    }
+}
