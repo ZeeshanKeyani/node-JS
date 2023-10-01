@@ -4,7 +4,7 @@ for (let i = 0; i <=10; i++) {
     for (let j = 0; j <=10; j++) {
        // console.log(`Outer loop is : ${i} and the inner loop is ${j}`)
        console.log(i + ' * ' +j+ '=' + i*j) 
-    }
+    }}
 //=======
 for (let i = 1; i <=10; i++) {
     //console.log(` Outer loop V: ${i}`);
@@ -32,5 +32,5 @@ for (let i = 0; i <= 10; i++) {
     const element = i;
     console.log(element);
     
->>>>>>> 20094595cfbb2732b00d91dfd08ed9da83963c95
+//>>>>>>> 20094595cfbb2732b00d91dfd08ed9da83963c95
 }
