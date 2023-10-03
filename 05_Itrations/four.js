@@ -28,6 +28,9 @@ map.set('AUS','Austrila')
 map.set('NZ','Newziland') 
 
 for (const [key, val] of map) {
-    console.log(key, ':-', val); 
+   // console.log(key, ':-', val); 
+}
+for (const key in map) {
+    console.log(key)
     
 }
