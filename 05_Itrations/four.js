@@ -12,6 +12,7 @@ const myObject ={
     const programming = ['js','cp','rb','java','py']
     for (const key in programming) {
             console.log(programming[key]); 
+            //this will run the requiered results
 
         }
     
