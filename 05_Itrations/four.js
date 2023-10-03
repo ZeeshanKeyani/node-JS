@@ -11,6 +11,7 @@ const myObject ={
     }
     const programming = ['js','cp','rb','java','py']
     for (const key in programming) {
-            console.log(key)    
+            console.log(programming[key]); 
+
         }
     
