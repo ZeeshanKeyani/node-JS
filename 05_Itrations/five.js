@@ -16,12 +16,12 @@ coding.forEach(function (val)
     
 // });
 function printMe(item) {
-    console.log(item);
+  //  console.log(item);
     
 }
 coding.forEach(printMe)
 coding.forEach( (item, index, arr)=>{
-    console.log(item, index, arr);
+   // console.log(item, index, arr);
 })
 const myCoding =[
     {
@@ -41,6 +41,7 @@ const myCoding =[
     }
 ]
 myCoding.forEach( (item) => {
-
+    console.log(item.languageFileName);
+    console.log(item.languageName);
     
-} )
+});
