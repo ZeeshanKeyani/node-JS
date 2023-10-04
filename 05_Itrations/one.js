@@ -66,3 +66,17 @@ let longArray = ["100000L","300000L","400000L","786777L"]
          console.log(`Value of i is ${index}`);
         
     }
+
+
+const myNum =[1,2,3,4,5,6,7,8,9,10]
+const NewNum = myNum.filter((num) => num >= 4)
+console.log(NewNum);
+
+const myNewNum = []
+myNum.forEach( (num) => {
+    if(num >4){
+        myNewNum.push(myNum);
+    }
+})
+
+console.log(myNewNum);
