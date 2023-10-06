@@ -34,3 +34,5 @@ const shoppinCarr=[
     itemName: "Py course ",
     price:     12999
 }]
+const priceToPay = shoppinCarr.reduce((acc, item)=> acc + item.price,0)
+console.log(priceToPay)
