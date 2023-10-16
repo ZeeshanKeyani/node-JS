@@ -14,7 +14,7 @@
         
         
     </div>
-    <div class = "m-parent">
+    <div class = "mparent">
         <div class="month">January</div>
         <div class="month">Febuary</div>
         <div class="month">March</div>
@@ -23,14 +23,22 @@
     </div>
 </body>
 <script>
-    const parent = document.querySelector('.parent')
-    //console.log(parent);
-    //console.log(parent.children);
-    //console.log(parent.children[0].innerHTML);
-    //console.log(parent.children[1].innerHTML);
+    // const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[0].innerHTML);
+    // console.log(parent.children[1].innerHTML);
 
-    const mparent = document.querySelector('.m-paren')
+    const mparent = document.querySelector('.mparent')
     console.log(mparent);
+    console.log(mparent.children)
+    console.log(mparent.children[0].innerHTML);
+
+    for (let i = 0; i < mparent.children.length; i++) {
+        console.log(parent.children[i].innerHTML); 
+        
+    }
+
 
 </script>
 </html>
