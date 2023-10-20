@@ -25,7 +25,7 @@
     
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
          </p>
-         <input type="password" name="" id="">
+         <input type    ="password" name="" id="">
          <ul>
             <li class="list-item" >one</li>
             <li class="list-item">two</li>
@@ -37,6 +37,48 @@
         <li>two</li>
         <li>three</li>
          </ol>
+<div class="parent">
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thursday</div>
+</div>
+<div class="parentmont">
+    <div class="month">Jan</div>
+    <div class="month">Feb</div>
+    <div class="month">March</div>
+ 
 
-         </body>
+</div>
+        </body>
+         <script>
+        //const parent = document.querySelector('.parent')
+        //console.log(parent);
+        //console.log(parent.children);
+        //console.log(parent.children[0].innerHTML);
+
+        // for (let i = 0; i < parent.children.length; i++) {
+        //     console.log(parent.children[i].innerHTML);
+        // }
+        const parentmont = document.querySelector('.parentmont')
+        
+        //console.log(parentmont);
+        //console.log(parentmont.children[1].innerHTML);
+
+        // for (let i = 0; i < parentmont.children.length; i++) {
+        //     console.log(parentmont.children[i].innerHTML);
+       // }
+        parentmont.children[1].style.color="orange"
+        //console.log(parentmont.firstElementChild);
+        //console.log(parentmont.lastElementChild);
+
+        // const monthOne = document.querySelector('.month')
+        // console.log(monthOne);
+        // console.log(monthOne.parentElement);
+        // console.log(monthOne.nextElementSibling);
+
+        console.log("NODES: ", parentmont.childNodes);
+
+
+         </script>
 </html>
