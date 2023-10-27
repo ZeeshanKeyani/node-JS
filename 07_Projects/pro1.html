@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project No 1</title>
+</head>
+<body>
+    <button class="button" id="success">Success</button>
+<button class="button" id="Info">Info</button>
+<button class="button" id="warning">Warning</button>
+<button class="button" id ="danger">Danger</button>
+<button class="button" id ="default">Default</button>
+
+
+
+<style>
+.button {
+  border: none;
+  background-color: blueviolet;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 10%;
+  align-items: center;
+}
+
+/* On mouse-over */
+.button:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+
+
+</style>
+</body>
+<script>
+const button = document.querySelectorAll('.button');
+console.log(button);
+const body = document.querySelector("body");
+console.log(body);
+
+button.forEach(function(button){
+    console.log(button);
+    button.addEventListener('click', function(e){
+        console.log(e);
+        console.log(e.target);
+        if (e.target.id =='success'){
+            body.style.backgroundColor = 'green'
+        }
+        if (e.target.id =='Info'){
+            body.style.backgroundColor = 'black'
+        }if (e.target.id =='warning'){
+            body.style.backgroundColor = 'orange'
+        }if (e.target.id =='danger'){
+            body.style.backgroundColor = 'red'
+        }if (e.target.id =='default'){
+            body.style.backgroundColor = 'indigo'
+        }
+    })
+})
+</script>
+</html>
