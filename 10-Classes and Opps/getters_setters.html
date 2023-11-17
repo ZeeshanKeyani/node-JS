@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getters and Setters</title>
+</head>
+<body>
+    <script>
+        class user {
+            constructor(email, password){
+                this.email=email;
+                this.password=password
+            }
+            getpassword(){
+                return this.password.toUpperCase()
+            }
+            setpassword(value){
+                this.password=value.toUpperCase()
+            }
+        }
+        var hitesh = new user();
+        hitesh.setpassword("123");
+        document.writeln(hitesh.getpassword());
+    </script>
+</body>
+</html>
